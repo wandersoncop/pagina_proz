@@ -5,21 +5,25 @@
   
 }
 header{
-  background-color:rgb(17, 208, 33);
+  background-color:rgb(242, 235, 241);
   display: flex;
   justify-content: space-between;
-  padding: 8px;
+  padding: 18px;
   margin-bottom: 12px;
+  margin-bottom: 0%;
+  
 }
 
+
 nav{
-  background-color:rgb(17, 208, 33);
+  background-color: transparent;
  
 }
 ul{
   display: flex;
   align-items: center;
   height: 100%;
+  background-color: transparent;
 
   
 }
@@ -28,9 +32,57 @@ nav ul li{
   list-style: none;
   margin-left: 16px;
   text-decoration: none;
+  background-color: transparent;
 }
 nav ul li a{
    
 
   text-decoration: none;
 }
+main{
+  width: 100%;
+  height: 600px;
+  background-color: blueviolet;
+  
+}
+img{
+  background-color: transparent;
+}
+a{
+  background-color: transparent;
+}
+h1{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+ 
+}
+h2{
+  color: white;
+  display: flex;
+ 
+ 
+}
+section {
+  display: flex;
+  color: white;
+  
+
+ 
+}
+
+section div{
+  background-image: url(img/bg_laranja.jpg);
+  margin: 16px;
+  padding: 12px;
+  width:300px ;
+  height:200px ;
+  border-radius: 10px;
+
+
+ 
+}
+
